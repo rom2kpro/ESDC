@@ -1,0 +1,33 @@
+
+    .menu{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items: center;
+        background: blue;
+        opacity: 0.5;
+        height: 4em;
+        width: 80%;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        z-index: 999;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+      .menu .item{
+        display:flex;
+        font-size:1.2em;
+        padding: 15px;  
+        flex-direction: column;
+        justify-content: center;
+      }
+      .menu .item a{
+        color: white;
+        text-decoration: none;
+      }
+      .menu .logo{
+        background: white;
+      }
+      .menu .logo img{
+        height:4em;
+      }

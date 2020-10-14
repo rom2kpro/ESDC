@@ -1,0 +1,33 @@
+.list-service {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+  }
+  .list-service .items{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding: 15px;
+  }
+  .list-service .items .icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  i{
+    transform: rotate(-45deg);
+  }
+  .title{
+    margin-top:15px;
+  }
+  
+  
+  
